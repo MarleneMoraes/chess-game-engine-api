@@ -1,4 +1,4 @@
-package boardgame;
+package com.chessgame.api.domain.model;
 
 public abstract class Piece {
 

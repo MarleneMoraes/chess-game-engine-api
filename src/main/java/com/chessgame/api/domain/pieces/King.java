@@ -1,10 +1,10 @@
-package chess.pieces;
+package com.chessgame.api.domain.pieces;
 
-import boardgame.Board;
-import boardgame.Position;
-import chess.ChessMatch;
-import chess.ChessPiece;
-import chess.Color;
+import com.chessgame.api.domain.model.Board;
+import com.chessgame.api.domain.model.ChessMatch;
+import com.chessgame.api.domain.model.ChessPiece;
+import com.chessgame.api.domain.model.Color;
+import com.chessgame.api.domain.model.Position;
 
 public class King extends ChessPiece {
 

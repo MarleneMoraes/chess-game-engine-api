@@ -1,18 +1,11 @@
-package chess;
+package com.chessgame.api.domain.model;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import boardgame.Board;
-import boardgame.Piece;
-import boardgame.Position;
-import chess.pieces.Bishop;
-import chess.pieces.King;
-import chess.pieces.Knight;
-import chess.pieces.Pawn;
-import chess.pieces.Queen;
-import chess.pieces.Rook;
+import com.chessgame.api.domain.exception.ChessException;
+import com.chessgame.api.domain.pieces.*;
 
 public class ChessMatch {
 

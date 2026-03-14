@@ -1,6 +1,6 @@
-package chess;
+package com.chessgame.api.domain.model;
 
-import boardgame.Position;
+import com.chessgame.api.domain.exception.ChessException;
 
 public class ChessPosition {
 	

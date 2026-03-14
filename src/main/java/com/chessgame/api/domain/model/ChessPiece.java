@@ -1,8 +1,4 @@
-package chess;
-
-import boardgame.Board;
-import boardgame.Piece;
-import boardgame.Position;
+package com.chessgame.api.domain.model;
 
 public abstract class ChessPiece extends Piece {
 
