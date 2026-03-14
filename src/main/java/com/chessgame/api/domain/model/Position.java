@@ -1,38 +1,26 @@
 package com.chessgame.api.domain.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class Position {
 
-	private int row;
-	private int column;
-	
-	public Position(int row, int column) {
-		this.row = row;
-		this.column = column;
-	}
+    private int row;
+    private int column;
 
-	public int getRow() {
-		return row;
-	}
+    public void setValues(int row, int column) {
+        this.row = row;
+        this.column = column;
+    }
 
-	public void setRow(int row) {
-		this.row = row;
-	}
-
-	public int getColumn() {
-		return column;
-	}
-
-	public void setColumn(int column) {
-		this.column = column;
-	}
-	
-	public void setValues(int row, int column) {
-		this.row = row;
-		this.column = column;
-	}
-	
-	@Override
-	public String toString() {
-		return row + ", " + column;
-	}
+    @Override
+    public String toString() {
+        return row + ", " + column;
+    }
 }

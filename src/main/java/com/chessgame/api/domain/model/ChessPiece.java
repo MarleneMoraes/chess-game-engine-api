@@ -1,8 +1,10 @@
 package com.chessgame.api.domain.model;
+import lombok.Getter;
 
+@Getter
 public abstract class ChessPiece extends Piece {
 
-	private Color color;
+	private final Color color;
 	private int moveCount;
 
 	public ChessPiece(Board board, Color color) {
@@ -10,14 +12,6 @@ public abstract class ChessPiece extends Piece {
 		this.color = color;
 	}
 
-	public Color getColor() {
-		return color;
-	}
-	
-	public int getMoveCount() {
-		return moveCount;
-	}
-	
 	protected void increaseMoveCount() {
 		moveCount++;
 	}
